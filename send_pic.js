@@ -44,7 +44,8 @@
 	function send_mail(email="thisismyinternetid@gmail.com",key){
 		
 		
-		let url = "http://127.0.0.1:5000/"+email+"/"+key;
+		//let url = "http://127.0.0.1:5000/"+email+"/"+key;
+		let url = "http://18.217.103.149:5000/"+email+"/"+key;
 		console.log("Connecting to Python.....")
 		$.ajax(url, 
 		{
