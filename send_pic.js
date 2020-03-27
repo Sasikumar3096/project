@@ -53,6 +53,7 @@
 			 crossDomain: true,
 			success: function (data, status, xhr) {
 				console.log("Response Received");
+				console.log(data)
 				if(data == "no face detected")
 					alert("No Faces Detected. Try Again.")
 				else
